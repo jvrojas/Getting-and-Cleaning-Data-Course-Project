@@ -12,7 +12,7 @@ WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING).
 
 run_analysis.R: Script with code used to merge training and test data, label based on subjects and activities, calculate averages and generate tidy_data.txt.
 
-Code book.md: modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated,
+Code book.txt: modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated,
 along with units, and any other relevant information
 
 
