@@ -1,0 +1,51 @@
+# Data
+X_train.txt: Original train set.
+
+X_test.txt: Original test set.
+
+features.txt: Original list of all features.
+
+y_train.txt: Original train labels.
+
+y_test.txt: Original test labels.
+
+subject_train.txt: The subjects in train set who performed the activity. It can range from 1 to 30. 
+
+subject_test.txt: The subjects in train set who performed the activity. It can range from 1 to 30.
+
+# Variables used in the script "run_analysis.R"
+
+train: dataframe with the train sample data, with all variables originally measured.
+test: dataframe with the test sample data, with all variables originally measured.
+data: complete dataframe, envolving the data from train and test samples.
+features: dataframe with the labels of the 561 variables in the original data set.
+names: Used to refer to the feature column that contains the variable names from the original data set.
+datameansd: Date subset, containing only the variables of mean and standard deviation of the variables.
+acttrain: Vector with activity labels for each train set observation. It can be from 1 to 6 (1 WALKING, 
+2 WALKING_UPSTAIRS, 
+3 WALKING_DOWNSTAIRS
+, 4 SITTING
+, 5 STANDING
+, 6 LAYING
+)
+acttest: Vector with activity labels for each test set observation. It can be from 1 to 6 (1 WALKING, 
+2 WALKING_UPSTAIRS, 
+3 WALKING_DOWNSTAIRS
+, 4 SITTING
+, 5 STANDING
+, 6 LAYING
+)
+act: Vector with activity labels for all observations. It can be from 1 to 6 (1 WALKING, 
+2 WALKING_UPSTAIRS, 
+3 WALKING_DOWNSTAIRS
+, 4 SITTING
+, 5 STANDING
+, 6 LAYING
+)
+subjtrain: Vector with subject labels for each train set observation. It can be from 1 to 30.
+subjtest: Vector with subject labels for each test set observation. It can be from 1 to 30.
+subj: Vector with subject labels for all observations. It can be from 1 to 30.
+averagedata: A new tidy data set with the average of each variable for each activity and each subject
+
+# Guidelines
+Set directory containing the data .txt files with the names shown in this code book.Run the script "run_analysis.R". Remembering that the files were taken from "Human Activity Recognition Using Smartphones Dataset" (Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012).
